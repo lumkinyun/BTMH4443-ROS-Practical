@@ -1,0 +1,42 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  info [
+    "Simple Thymio II simulation controlled by a ROS node written in Python."
+  ]
+  title "ROS Python"
+  basicTimeStep 20
+  contactProperties [
+    ContactProperties {
+      material2 "thymio body"
+      coulombFriction [
+        0.7
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation 0.6529831740954333 -0.39586888863896347 -0.6456785557504638 1.5078231853591149
+  position -1.57039930469105 -0.8099858095804027 0.8629943389408707
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+CircleArena {
+  rotation 1 0 0 1.5707963267948966
+  wallThickness 0.05
+}
+TurtleBot3Burger {
+  hidden position_0_2 -22.072161462150376
+  hidden position2_0_2 -2.475580169406411
+  hidden position3_0_2 -13.055017726500415
+  hidden translation_8 0.08 0.033 0
+  hidden rotation_8 -3.5321978526308314e-09 3.5322108271418386e-09 1 1.5708
+  hidden translation_9 -0.08 0.033 0
+  hidden rotation_9 -0.7071072811865633 -0.7071062811861784 -2.4676943593148308e-09 3.1415853022441906
+  hidden translation_10 0 0.004 0.081
+  hidden rotation_10 0.3340292358332173 0.04288299121776692 -0.9415867026848318 3.5761626203762957
+  translation -0.060283662435901705 -0.10947244168738364 -0.00015506386728593446
+  rotation 0.5859467944522405 0.5738297035672721 0.5721763935842165 2.0840742647363744
+  controller "<extern>"
+}
